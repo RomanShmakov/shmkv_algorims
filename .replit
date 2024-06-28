@@ -1,0 +1,5 @@
+entrypoint = "task_1_0.java"
+modules = ["java-graalvm22.3"]
+
+[nix]
+channel = "stable-23_11"

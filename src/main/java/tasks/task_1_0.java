@@ -1,12 +1,18 @@
+package tasks;
+
+import java.util.Arrays;
+import java.util.List;
+
 public class task_1_0 {
 
     public void binary_search() {
 
         List<Integer> my_list = Arrays.asList(1, 3, 5, 7, 9);
-        int item = 5;
+        int item = 3;
 
         int low = 0;
         int high = my_list.size() - 1;
+
         int result = -1;
         int mid;
         int guess;
@@ -31,5 +37,4 @@ public class task_1_0 {
         }
 
     }
-
 }
